@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="C7h-yz-R9Z">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Me-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="AboutMe" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="My name in Flint, I live in Maryland" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tQx-Oa-afF">
+                                <rect key="frame" x="57" y="323.5" width="261" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.8903102871158568" green="1" blue="0.85706980935167876" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="tintColor" red="1" green="0.2527923882" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="tQx-Oa-afF" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="JJ6-nN-5wn"/>
+                            <constraint firstItem="tQx-Oa-afF" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="dP2-re-ija"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Me" id="0XZ-Yw-IF4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="756" y="-58.020989505247378"/>
+        </scene>
+        <!--Sports-->
+        <scene sceneID="IKc-rB-E47">
+            <objects>
+                <viewController id="y0X-lG-ncG" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="qll-97-SaY">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I like to play baseball and soccer" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GyU-it-xJy">
+                                <rect key="frame" x="64" y="323" width="247" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.75195625575833613" green="0.96258994157625533" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="tintColor" red="1" green="0.2527923882" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="GyU-it-xJy" firstAttribute="centerY" secondItem="qll-97-SaY" secondAttribute="centerY" id="OEs-Sz-dpV"/>
+                            <constraint firstItem="GyU-it-xJy" firstAttribute="centerX" secondItem="qll-97-SaY" secondAttribute="centerX" id="di3-ag-2zG"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="10c-GO-C2W"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Sports" id="5SW-VR-BnI"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oTX-Uq-0yl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1716" y="-58.020989505247378"/>
+        </scene>
+        <!--School-->
+        <scene sceneID="eWu-eP-1Y8">
+            <objects>
+                <viewController id="WHe-aF-iRd" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5Il-VC-Kmy">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I am a Junior at Sandy Spring Friends School" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Frp-fb-I5W">
+                                <rect key="frame" x="17" y="323" width="341" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.76375616557251869" blue="0.79635523615333825" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="tintColor" red="1" green="0.2527923882" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Frp-fb-I5W" firstAttribute="centerY" secondItem="5Il-VC-Kmy" secondAttribute="centerY" id="U6D-y0-bok"/>
+                            <constraint firstItem="Frp-fb-I5W" firstAttribute="centerX" secondItem="5Il-VC-Kmy" secondAttribute="centerX" id="bkF-i2-Rf8"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="VBn-ty-Gft"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="School" id="8ER-ap-5vA"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9fe-1G-xbr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="756" y="658.92053973013503"/>
+        </scene>
+        <!--Acedemics-->
+        <scene sceneID="ThX-sD-lhk">
+            <objects>
+                <viewController id="BmI-eL-NZu" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="yPo-AY-jTd">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I am studying computer science" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Vj-hm-oHF">
+                                <rect key="frame" x="65.5" y="323.5" width="244" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.88840695249096802" green="0.81656194571032459" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="tintColor" red="1" green="0.2527923882" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="9Vj-hm-oHF" firstAttribute="centerX" secondItem="yPo-AY-jTd" secondAttribute="centerX" id="D0h-eE-wf8"/>
+                            <constraint firstItem="9Vj-hm-oHF" firstAttribute="centerY" secondItem="yPo-AY-jTd" secondAttribute="centerY" id="lOd-WD-XYL"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="S4O-m3-vy9"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Acedemics" id="YDw-zm-UPX"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xaI-7c-RIP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1716" y="658.92053973013503"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="I0U-cH-gph">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="C7h-yz-R9Z" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="72b-zG-7i5">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="tintColor" red="1" green="0.2527923882" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="ZQ1-k7-xu6"/>
+                        <segue destination="y0X-lG-ncG" kind="relationship" relationship="viewControllers" id="Afg-oO-URn"/>
+                        <segue destination="BmI-eL-NZu" kind="relationship" relationship="viewControllers" id="ctM-47-pCg"/>
+                        <segue destination="WHe-aF-iRd" kind="relationship" relationship="viewControllers" id="xA1-x7-HZz"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XiB-un-Oma" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-183.19999999999999" y="300"/>
+        </scene>
+    </scenes>
+</document>
